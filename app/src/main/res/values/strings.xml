@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TV Agent</string>
+    <string name="accessibility_service_description">Allows the HikersRemote phone app to send power, volume, home, and back commands to this TV over the internet.</string>
+</resources>
