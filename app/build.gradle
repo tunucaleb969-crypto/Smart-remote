@@ -2,11 +2,11 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace 'com.tvagent'
+    namespace 'com.hikersremote'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.tvagent"
+        applicationId "com.hikersremote"
         minSdk 23
         targetSdk 34
         versionCode 1
@@ -27,5 +27,6 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.12.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.11.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
     implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5'
 }
